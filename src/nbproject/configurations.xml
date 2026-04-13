@@ -24,12 +24,12 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>main.c</itemPath>
-      <itemPath>LCD.c</itemPath>
-      <itemPath>I2C.c</itemPath>
       <itemPath>clock.c</itemPath>
       <itemPath>interrupt_manager.c</itemPath>
       <itemPath>pin_manager.c</itemPath>
       <itemPath>system.c</itemPath>
+      <itemPath>I2C.c</itemPath>
+      <itemPath>LCD.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
