@@ -1,0 +1,22 @@
+#include<libpic30.h>
+
+#define	I2C_HEADER_H
+
+#ifdef	__cplusplus
+extern "C" {
+#endif
+
+void I2C_INIT(void);
+void I2C1_WAIT(void);
+void I2C1_START(void);
+void I2C1_STOP(void);
+uint8_t I2C1_WRITE(uint8_t DATA);
+
+
+
+#ifdef	__cplusplus
+}
+#endif
+
+#endif	/* I2C_HEADER_H */
+
