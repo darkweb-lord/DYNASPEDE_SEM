@@ -4,10 +4,10 @@
 // 1. You MUST define your clock speed here BEFORE libpic30.h
 // Assuming 8MHz internal oscillator (Fosc = 8MHz, FCY = Fosc/2 = 4000000)
 // If you enabled the PLL for 32MHz, change this to 16000000UL
-#define FCY 4000000UL       
+#define FCY 16000000UL       
 
 // 2. Delay library included AFTER the speed is defined
-//#include <libpic30.h>       
+#include <libpic30.h>       
 
 // 3. Your local headers
 #include "LCD_I2C.h"
