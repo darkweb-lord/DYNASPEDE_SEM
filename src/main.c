@@ -3,6 +3,9 @@
 #include "I2c_Header.h"
 #include "LCD_I2C.h"
 #include "RTCC.h"
+
+#define FCY 16000000UL
+
 #include <libpic30.h>
 #include<stdio.h>
 
