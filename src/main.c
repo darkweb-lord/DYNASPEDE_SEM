@@ -4,14 +4,9 @@
 #include "LCD_I2C.h"
 #include "RTCC.h"
 
-<<<<<<< HEAD
-#define FCY 16000000UL
-
-=======
 // 1. You MUST define FCY before including libpic30.h
 #define FCY 16000000UL 
 // 2. Now include the delay and standard IO libraries
->>>>>>> 9dba688b64c6c147c33b05cfb0854c11829e92ba
 #include <libpic30.h>
 #include <stdio.h>
 
